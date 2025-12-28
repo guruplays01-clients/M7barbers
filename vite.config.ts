@@ -4,8 +4,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // 🔥 REQUIRED for Netlify
-
+  base: './',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, '.'),
